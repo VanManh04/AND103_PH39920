@@ -35,6 +35,7 @@ public class CitiesADAPTER extends RecyclerView.Adapter<CitiesADAPTER.viewholder
         LayoutInflater inflater = ((Activity) context).getLayoutInflater();
         View view = inflater.inflate(R.layout.items_cities, null);
         return new viewholder(view);
+        //
     }
 
     @Override
